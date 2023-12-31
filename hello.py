@@ -1,9 +1,11 @@
 # ask user for their name
-name = input("what's your name? ")
+name = input("why do you stink sir? ")
 """
 you can write nots with three double quotations
 """
 # say hello to user
-print("hello," , end=" ")
-print(name)
+print("well" , end="\n")
+print("\"" , name , "\"" , end=" ")
+print("is no excuse, you stink!")
+
 
