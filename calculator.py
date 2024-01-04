@@ -9,6 +9,12 @@
     print(x + y)
 """
 # creating a calculator using floats
-x = float(input("what's x ? "))
-y = float(input("what's y ? "))
-print(x + y)
+""" x = float(input("what's x ? "))
+    y = float(input("what's y ? "))
+    print(x + y)
+"""
+# Round the number
+"""round(number, ndigits=None)"""
+x = float(input("what's x ?"))
+y = float(input("what's y ?"))
+print(round(x / y ,3))
