@@ -15,6 +15,14 @@
 """
 # Round the number
 """round(number, ndigits=None)"""
-x = float(input("what's x ?"))
-y = float(input("what's y ?"))
-print(round(x / y ,3))
+""" x = float(input("what's x ?"))
+    y = float(input("what's y ?"))
+    print(round(x / y ,3))
+"""
+# makei the result of the equation to be seperated by a coma if it was a integer number of more than 4 numbers
+x = float(input("what's x ? "))
+y = float(input("what's y ? "))
+
+z = (x * y)
+
+print(f"{z:.2f}")
