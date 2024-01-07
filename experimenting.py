@@ -1,6 +1,6 @@
 # ask the user's name and say hello to them, use defs
 def main():
-    name = input("what's your name ? ").title().strip()
+    name = input("what's your name ? ").title().strip().lower()
     hello(name)
 
 
