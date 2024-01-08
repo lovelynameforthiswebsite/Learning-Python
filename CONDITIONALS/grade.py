@@ -12,6 +12,7 @@ def main():
     else:
         print(" F ")
     """
+    """
     score = float(input("what's the student's score ? "))
     if 90 < score <= 100:
         print(" A ")
@@ -19,13 +20,22 @@ def main():
         print(" B ")
     elif 70 < score <= 80:
         print(" C ")
-    elif 60 < score <= 50:
+    elif 60 < score <= 70:
         print(" D ")
     else:
         print(" F ")
-
-
-
+    """
+    score = float(input("what's the student's score ? "))
+    if score > 90:
+        print(" A ")
+    elif score > 80:
+        print(" B ")
+    elif score > 70:
+        print(" C ")
+    elif score > 60:
+        print(" D ")
+    else:
+        print(" F ")
 
 
 
