@@ -30,15 +30,15 @@
 """
 # make the equation result be written to at # # most 3 digits if the the result contain's # # more than 3 digits
 
-def main()
+def main():
 
-    x = float(input(what's x ? ))
-    y = float(input(what's y ? ))
+    x = float(input("what's x ? "))
+    y = float(input("what's y ? "))
     print("x + y is", x + y)
     print("the equation squared is", square(x + y))
 
 
-def square(n)
+def square(n):
     return n * n
 
 
