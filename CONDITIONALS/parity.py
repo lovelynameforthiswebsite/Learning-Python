@@ -22,8 +22,10 @@ def is_even(n):
     else:
         return False
     """
+    """
     return True if n % 2 == 0 else False
-
+    """
+    return n % 2 == 0
 
 
 
