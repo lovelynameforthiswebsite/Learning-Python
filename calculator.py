@@ -35,13 +35,11 @@ def main():
     x = float(input("what's x ? "))
     y = float(input("what's y ? "))
     print("x + y is", x + y)
-    print("the equation squared is", square(x + y))
+    print("the equation squared is", f"{square(x + y):.3f}")
 
 
 def square(n):
     return n * n
-
-
 
 
 main()
