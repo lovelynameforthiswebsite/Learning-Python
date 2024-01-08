@@ -13,9 +13,9 @@ def main():
 
     if x < y:
         print("x is less than y ")
-    if x > y:
+    elif x > y:
         print("x is more than y ")
-    if x == y:
+    else:
         print("x is equal to y ")
 
 
